@@ -1,0 +1,5 @@
+Enter your first name: Ammara
+Enter your middle name: Monez
+Enter your last name: Agsalud
+My name is: Ammara Monez Agsalud
+My initials are: AMA

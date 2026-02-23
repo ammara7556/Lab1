@@ -1,0 +1,5 @@
+Enter the meal charge: 16.67
+Meal charge: 16.67
+Tax amount: 1.1252250000000001
+Tip amount: 3.5590450000000007
+Total bill: 21.354270000000003

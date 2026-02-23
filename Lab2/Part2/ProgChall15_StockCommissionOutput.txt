@@ -1,0 +1,5 @@
+Enter number of shares purchased: 600
+Enter price per share: 21.77
+Amount paid for stock alone: 13062.0
+Commission amount: 261.24
+Total amount paid: 13323.24

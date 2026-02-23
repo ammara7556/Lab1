@@ -1,0 +1,5 @@
+Enter the name of your favorite city: Mumbai
+Number of characters: 6
+Uppercase: MUMBAI
+Lowercase: mumbai
+First character: M
