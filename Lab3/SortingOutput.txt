@@ -1,0 +1,12 @@
+Enter first number: Enter first number: 3
+Enter second number: 1
+Enter third number: 2
+Ascending order: 1 2 3
+Enter first number: 10
+Enter second number: 5
+Enter third number: 7
+Ascending order: 5 7 10
+Enter first number: 8
+Enter second number: 2
+Enter third number: 8
+Ascending order: 2 8 8

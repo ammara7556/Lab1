@@ -1,0 +1,15 @@
+Enter exam 1 score: 90
+Enter exam 2 score: 95
+Enter exam 3 score: 86
+Avg = 90.3
+Letter Grade = A
+Enter exam 1 score: 89
+Enter exam 2 score: 70
+Enter exam 3 score: 80
+Avg = 79.7
+Letter Grade = C
+Enter exam 1 score: 76
+Enter exam 2 score: 50
+Enter exam 3 score: 52
+Avg = 59.3
+Letter Grade = F
