@@ -1,0 +1,8 @@
+Number 1 is: 511
+Number 2 is: 186
+Number 3 is: 970
+
+NUMBER BAR CHART
+Number 1: *****
+Number 2: *
+Number 3: *********
