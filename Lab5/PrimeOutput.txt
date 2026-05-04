@@ -1,0 +1,6 @@
+Enter a whole number>2 (ie 19) to test if prime: 12
+12 is not prime
+Enter yes to test another number, no to quit. yes
+Enter a whole number>2 (ie 19) to test if prime: 23
+23 is prime
+Enter yes to test another number, no to quit. no
