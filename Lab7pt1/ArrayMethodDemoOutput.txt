@@ -1,0 +1,179 @@
+import java.util.Arrays;
+
+/**
+ * This class stores an integer array and provides methods
+ * to count, search, copy, reverse, and print array values.
+ * 
+ * @author Ammara Agsalud
+ * @version v1.0
+ * @since 2026
+ */
+
+public class ArrayMethods {
+
+    private int[] myArray = {7, 8, 8, 3, 4, 9, 8, 7};
+
+    /**
+     * Returns the original array.
+     * @return the integer array
+     */
+    public int[] getArray() {
+        return myArray;
+    }
+
+    /**
+     * Counts the number of elements in the array.
+     * @return the number of values in the array
+     */
+    public int count() {
+        int count = 0;
+
+        for (int value : myArray) {
+            count++;
+        }
+
+        return count;
+    }
+
+    /**
+     * Adds all values in the array.
+     * @return the sum of the array values
+     */
+    public int sum() {
+        int total = 0;
+
+        for (int i = 0; i < myArray.length; i++) {
+            total += myArray[i];
+        }
+
+        return total;
+    }
+
+    /**
+     * Calculates the average of the array values.
+     * @return the average as a double
+     */
+    public double average() {
+        return (double) sum() / count();
+    }
+
+    /**
+     * Finds the largest value in the array.
+     * @return the largest integer
+     */
+    public int findMax() {
+        int max = myArray[0];
+
+        for (int i = 1; i < myArray.length; i++) {
+            if (myArray[i] > max) {
+                max = myArray[i];
+            }
+        }
+
+        return max;
+    }
+
+    /**
+     * Finds the index of the largest value in the array.
+     * @return the index of the largest value
+     */
+    public int findIndexOfMax() {
+        int max = myArray[0];
+        int index = 0;
+
+        for (int i = 1; i < myArray.length; i++) {
+            if (myArray[i] > max) {
+                max = myArray[i];
+                index = i;
+            }
+        }
+
+        return index;
+    }
+
+    /**
+     * Finds the last index where a key appears.
+     * @param key value being searched for
+     * @return the last index of the key, or -1 if not found
+     */
+    public int findLast(int key) {
+        for (int i = myArray.length - 1; i >= 0; i--) {
+            if (myArray[i] == key) {
+                return i;
+            }
+        }
+
+        return -1;
+    }
+
+    /**
+     * Finds every index where a key appears.
+     * @param key value being searched for
+     * @return array of indexes where the key appears
+     */
+    public int[] findAll(int key) {
+        int count = 0;
+
+        for (int i = 0; i < myArray.length; i++) {
+            if (myArray[i] == key) {
+                count++;
+            }
+        }
+
+        int[] indexes = new int[count];
+        int position = 0;
+
+        for (int i = 0; i < myArray.length; i++) {
+            if (myArray[i] == key) {
+                indexes[position] = i;
+                position++;
+            }
+        }
+
+        return indexes;
+    }
+
+    /**
+     * Copies the original array.
+     * @return a copy of the array
+     */
+    public int[] copyArray() {
+        return Arrays.copyOf(myArray, myArray.length);
+    }
+
+    /**
+     * Reverses the order of an array.
+     * @param inArray array to reverse
+     * @return reversed array
+     */
+    public int[] reverseArray(int[] inArray) {
+        int[] newArray = new int[inArray.length];
+        int position = 0;
+
+        for (int i = inArray.length - 1; i >= 0; i--) {
+            newArray[position] = inArray[i];
+            position++;
+        }
+
+        return newArray;
+    }
+
+    /**
+     * Prints an int array, nicely formatted.
+     * @param inArray int array to print
+     */
+    public void print(int[] inArray) {
+        System.out.print("{");
+        int i;
+
+        for (i = 0; i < inArray.length - 1; i++) {
+            System.out.print(inArray[i] + ", ");
+        }
+
+        if (inArray.length > 0) {
+            System.out.print(inArray[i]);
+        }
+
+        System.out.println("}");
+    }
+}
