@@ -1,0 +1,54 @@
+Employee1
+Name: Flinstone, Fred
+ID Number: BR-1
+Year Hired: 2013, Years Of Service: 12
+Salary: $75,000.12
+
+Employee2
+Name: Rubble, Barney
+ID Number: BR-2
+Year Hired: 2014, Years Of Service: 11
+Hours: 320.0, Hourly Rate: $60.55, Salary: $19,376.00
+
+Employee3
+Name: Flintstone, Wilma
+ID Number: BR-3
+Year Hired: 2016, Years Of Service: 9
+Salary: $78,123.25
+
+Employee4
+Name: Rubble, Betty
+ID Number: BR-4
+Year Hired: 2020, Years Of Service: 5
+
+Employee5
+Name: Slate, Wilma
+ID Number: BR-3
+Year Hired: 2016, Years Of Service: 9
+Salary: $78,123.25
+
+wilma and wilma2 are the same person: true
+
+Employee1
+Name: Flinstone, Fred
+ID Number: BR-1
+Year Hired: 2013, Years Of Service: 12
+Salary: $75,000.12
+
+Employee2
+Name: Rubble, Barney
+ID Number: BR-2
+Year Hired: 2014, Years Of Service: 11
+Hours: 320.0, Hourly Rate: $60.55, Salary: $19,376.00
+
+Employee3
+Name: Slate, Wilma
+ID Number: BR-3
+Year Hired: 2016, Years Of Service: 9
+Salary: $78,123.25
+
+Employee4
+Name: Rubble, Betty
+ID Number: BR-4
+Year Hired: 2020, Years Of Service: 5
+
